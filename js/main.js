@@ -9,7 +9,7 @@ if (localStorage.getItem("Data")) {
   displayData(JSON.parse(localStorage.getItem("Data")));
 }
 siteNameInpt.addEventListener("input", function () {
-  if (siteNameInpt.value.length < 3) {
+  if (siteNameInpt.value.length < 3||siteNameInpt.value.includes(" ")) {
     siteNameInpt.classList.add("is-invalid");
   } else {
     siteNameInpt.classList.remove("is-invalid");
