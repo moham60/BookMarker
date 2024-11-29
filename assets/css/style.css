@@ -48,6 +48,9 @@ body{
 section{
     padding-inline: 2rem;
 }
+main{
+    padding-inline:1rem;
+}
 main section.container:first-of-type{
     border-top: 1px dashed black;
     border-bottom: 1px dashed black;
@@ -124,12 +127,8 @@ table  tr{
     .btn{
         --bs-btn-font-size:0.6rem;
     }
-   .container{
-    width: 98%;
-   }
-   .section-table{
-    overflow-x: scroll;
-   }
+  
+  
 }
 .section-table table{
     width: 100%;
