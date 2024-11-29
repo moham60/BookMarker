@@ -36,6 +36,7 @@ h1{
 }
 h2{
     font-family: Righteous;
+    margin-bottom:25px;
  
 }
 body{
@@ -127,9 +128,7 @@ table  tr{
     }
   
 }
-h2{
-    font-size:1.1rem;
-}
+
 .section-table table{
     width: 100%;
 }
