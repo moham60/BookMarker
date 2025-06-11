@@ -72,7 +72,7 @@ function displayData(bookMark) {
       <td>${bookMark[i].name}</td>
       <td>
         <a href="${
-          bookMark[i].url.includes("https://www.")
+          bookMark[i].url.includes("https://www."||"www.")
             ? bookMark[i].url
             : "https://www." + bookMark[i].url
         }" target=_blank class="btn btn-outline-success">
